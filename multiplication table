@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i,n,result;
+    printf("Which times-table would you like to display ?\n");
+    scanf("%d",&n);
+for(i=1;i<=n;i++)
+    {
+        result=n*i;
+        printf("%d X %d = %d\n",n,i,result);
+    }
+
+    return 0;
+}
